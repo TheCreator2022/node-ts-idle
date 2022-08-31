@@ -8,7 +8,7 @@ function add(i) {
 }
 
 const buyUpgrade1 = () => {
-  sub(1)
+  sub(Opk(0))
   ntps += 3
   Mulit(1.2, 0)
 }
