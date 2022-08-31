@@ -6,3 +6,7 @@ html {
 body {
   background:linear-gradient(orange, aqua);
 }
+
+button.upgrader {
+  background:hsl(180, 50% 60%);
+}
