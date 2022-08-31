@@ -21,11 +21,14 @@ const Mulit = (value, arrayNumber) => {
   costs[arrayNumber] *= value
 }
 
+const Opk = (array) => costs[array]
+
 document.body.style.userSelect = 'none'
 
 function update() {
   nodeTS += ntps
   document.getElementById("ts").innerText = nodeTS
+  document.getElementById("upg1").innerText = Opk(0)
 }
 
 setInterval(update, 99)
