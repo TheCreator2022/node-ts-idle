@@ -10,3 +10,16 @@ body {
 button.upgrader {
   background:hsl(180, 50% 60%);
 }
+
+.progess-bar {
+  background:rgb(129, 129, 129);
+  width:225px;
+  height:40px;
+}
+
+.progess-bar::before {
+  content:var(--text);
+  background:var(--background-style);
+  width:calc(var(--percentage) * 2.25px);
+  height:40px;
+}
