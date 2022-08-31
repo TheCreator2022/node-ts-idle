@@ -25,6 +25,8 @@ const Opk = (array) => costs[array]
 
 document.body.style.userSelect = 'none'
 
+// Interval
+
 function update() {
   nodeTS += ntps
   document.getElementById("ts").innerText = nodeTS
